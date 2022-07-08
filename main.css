@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Share+Tech&family=Yantramanav:wght@100;300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  background: #444;
+  color: #fff;
+}
+
+main {
+  margin: 2rem 4rem;
+}
+
+.section {
+  padding: 0.2em;
+}
+
+#title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 1.8rem;
+  margin: 1em;
+}
+.img-section {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#img-caption {
+  margin-top: 0.9em;
+}
+article {
+  margin-bottom: 2rem;
+}
+
+ul li {
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+blockquote {
+  padding: 2rem;
+  background: #101010;
+  font-style: italic;
+  margin: 0.5rem;
+}
+
+p {
+  word-spacing: 0.2em;
+  text-align: left;
+  padding: 0.6em;
+  line-height: 1.4em;
+  margin: 1em;
+}
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.work h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+.work article ul {
+  background: #101010cc;
+  padding: 1.5em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer a:hover {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+#top i {
+  background: #888;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 1em;
+  color: #fff;
+}
